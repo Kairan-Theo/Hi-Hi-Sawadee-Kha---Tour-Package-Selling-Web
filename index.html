@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Tours - Discover Amazing Destinations</title>
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="loading">
+    <!-- Loader -->
+    <div class="loader"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2><i class="fas fa-mountain"></i> Adventure Tours</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#packages" class="nav-link">Packages</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-banner">
+            <img src="images/bn.png" alt="Adventure Tours Banner">
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Discover Amazing <span style="color: #FEA116;">Adventures</span></h1>
+            <p class="hero-subtitle">Explore breathtaking destinations and create unforgettable memories with our expertly crafted tour packages</p>
+            <div class="hero-buttons">
+                <a href="#packages" class="btn btn-primary">Explore Packages</a>
+                <a href="#contact" class="btn btn-secondary">Book Now</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>About Adventure Tours</h2>
+                <p>Your trusted partner in creating extraordinary travel experiences</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text reveal">
+                    <h3>Creating Memories Since 2010</h3>
+                    <p>At Adventure Tours, we believe that travel is more than just visiting new places – it's about creating life-changing experiences. With over a decade of expertise in crafting exceptional journeys, we've helped thousands of travelers discover the world's most incredible destinations.</p>
+                    <p>Our mission is to provide authentic, sustainable, and unforgettable travel experiences that connect you with local cultures, stunning landscapes, and fellow adventurers from around the globe.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-award"></i>
+                            <span>Award-Winning Service</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-users"></i>
+                            <span>Expert Local Guides</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-leaf"></i>
+                            <span>Sustainable Tourism</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image reveal">
+                    <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="About Us">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tour Packages Section -->
+    <section id="packages" class="packages">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Popular Tour Packages</h2>
+                <p>Choose from our carefully curated selection of adventure tours</p>
+            </div>
+            <div class="packages-grid reveal">
+                <div class="package-card">
+                    <div class="package-image">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Mountain Adventure">
+                        <div class="package-badge">Popular</div>
+                        <div class="package-overlay">
+                            <div class="overlay-content">
+                                <h4>Mountain Adventure</h4>
+                                <p>Explore majestic peaks and valleys</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package-content">
+                        <h3>Mountain Adventure</h3>
+                        <p>Experience breathtaking mountain landscapes and thrilling outdoor activities.</p>
+                        <div class="package-details">
+                            <span><i class="fas fa-clock"></i> 7 Days</span>
+                            <span><i class="fas fa-users"></i> Max 12</span>
+                        </div>
+                        <div class="package-price">
+                            <span class="price">$1,299</span>
+                            <span class="per-person">per person</span>
+                        </div>
+                        <a href="#contact" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+
+                <div class="package-card">
+                    <div class="package-image">
+                        <img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Beach Paradise">
+                        <div class="package-badge">Hot Deal</div>
+                        <div class="package-overlay">
+                            <div class="overlay-content">
+                                <h4>Beach Paradise</h4>
+                                <p>Relax on pristine beaches</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package-content">
+                        <h3>Beach Paradise</h3>
+                        <p>Relax on pristine beaches and enjoy crystal-clear waters in tropical paradise.</p>
+                        <div class="package-details">
+                            <span><i class="fas fa-clock"></i> 5 Days</span>
+                            <span><i class="fas fa-users"></i> Max 15</span>
+                        </div>
+                        <div class="package-price">
+                            <span class="price">$899</span>
+                            <span class="per-person">per person</span>
+                        </div>
+                        <a href="#contact" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+
+                <div class="package-card">
+                    <div class="package-image">
+                        <img src="https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Cultural Journey">
+                        <div class="package-overlay">
+                            <div class="overlay-content">
+                                <h4>Cultural Journey</h4>
+                                <p>Immerse in rich cultures</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package-content">
+                        <h3>Cultural Journey</h3>
+                        <p>Immerse yourself in rich cultures and discover ancient traditions.</p>
+                        <div class="package-details">
+                            <span><i class="fas fa-clock"></i> 10 Days</span>
+                            <span><i class="fas fa-users"></i> Max 8</span>
+                        </div>
+                        <div class="package-price">
+                            <span class="price">$1,599</span>
+                            <span class="per-person">per person</span>
+                        </div>
+                        <a href="#contact" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+
+                <div class="package-card">
+                    <div class="package-image">
+                        <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Forest Explorer">
+                        <div class="package-overlay">
+                            <div class="overlay-content">
+                                <h4>Forest Explorer</h4>
+                                <p>Discover incredible wildlife</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package-content">
+                        <h3>Forest Explorer</h3>
+                        <p>Venture into lush forests and discover incredible wildlife and nature.</p>
+                        <div class="package-details">
+                            <span><i class="fas fa-clock"></i> 6 Days</span>
+                            <span><i class="fas fa-users"></i> Max 10</span>
+                        </div>
+                        <div class="package-price">
+                            <span class="price">$1,099</span>
+                            <span class="per-person">per person</span>
+                        </div>
+                        <a href="#contact" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+
+                <div class="package-card">
+                    <div class="package-image">
+                        <img src="https://images.unsplash.com/photo-1464822759844-d150baec93c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Desert Safari">
+                        <div class="package-overlay">
+                            <div class="overlay-content">
+                                <h4>Desert Safari</h4>
+                                <p>Experience desert magic</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package-content">
+                        <h3>Desert Safari</h3>
+                        <p>Experience the magic of vast deserts and stunning sunset landscapes.</p>
+                        <div class="package-details">
+                            <span><i class="fas fa-clock"></i> 4 Days</span>
+                            <span><i class="fas fa-users"></i> Max 12</span>
+                        </div>
+                        <div class="package-price">
+                            <span class="price">$799</span>
+                            <span class="per-person">per person</span>
+                        </div>
+                        <a href="#contact" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+
+                <div class="package-card">
+                    <div class="package-image">
+                        <img src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Arctic Adventure">
+                        <div class="package-badge">New</div>
+                        <div class="package-overlay">
+                            <div class="overlay-content">
+                                <h4>Arctic Adventure</h4>
+                                <p>Witness Northern Lights</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package-content">
+                        <h3>Arctic Adventure</h3>
+                        <p>Witness the Northern Lights and explore the pristine Arctic wilderness.</p>
+                        <div class="package-details">
+                            <span><i class="fas fa-clock"></i> 8 Days</span>
+                            <span><i class="fas fa-users"></i> Max 6</span>
+                        </div>
+                        <div class="package-price">
+                            <span class="price">$2,199</span>
+                            <span class="per-person">per person</span>
+                        </div>
+                        <a href="#contact" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Why Choose Adventure Tours</h2>
+                <p>We provide exceptional service and unforgettable experiences</p>
+            </div>
+            <div class="services-grid reveal">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <h3>Best Price Guarantee</h3>
+                    <p>We offer competitive prices and will match any lower price you find elsewhere.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Our dedicated support team is available around the clock to assist you.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Customizable Tours</h3>
+                    <p>Tailor your adventure to your preferences with our flexible tour options.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Safe & Secure</h3>
+                    <p>Your safety is our priority with comprehensive insurance and safety measures.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h3>Expert Guides</h3>
+                    <p>Local expert guides provide authentic insights and ensure memorable experiences.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Memorable Experiences</h3>
+                    <p>We create once-in-a-lifetime moments that you'll treasure forever.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section id="stats" class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-smile"></i>
+                    </div>
+                    <div class="stat-number" data-target="15000">0</div>
+                    <div class="stat-label">Happy Travelers</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="stat-number" data-target="150">0</div>
+                    <div class="stat-label">Destinations</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <div class="stat-number" data-target="13">0</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="stat-number" data-target="25">0</div>
+                    <div class="stat-label">Awards Won</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Statistics Section -->
+     <section id="statistics" class="statistics">
+         <div class="container">
+             <div class="section-header reveal">
+                 <h2>Our Achievements</h2>
+                 <p>Numbers that speak for our excellence</p>
+             </div>
+             <div class="stats-grid reveal">
+                 <div class="stat-item">
+                     <div class="stat-icon">
+                         <i class="fas fa-users"></i>
+                     </div>
+                     <div class="stat-number">
+                         <span class="counter" data-count="15000">0</span>+
+                     </div>
+                     <div class="stat-label">Happy Travelers</div>
+                 </div>
+                 <div class="stat-item">
+                     <div class="stat-icon">
+                         <i class="fas fa-map-marker-alt"></i>
+                     </div>
+                     <div class="stat-number">
+                         <span class="counter" data-count="150">0</span>+
+                     </div>
+                     <div class="stat-label">Destinations</div>
+                 </div>
+                 <div class="stat-item">
+                     <div class="stat-icon">
+                         <i class="fas fa-calendar-alt"></i>
+                     </div>
+                     <div class="stat-number">
+                         <span class="counter" data-count="15">0</span>
+                     </div>
+                     <div class="stat-label">Years Experience</div>
+                 </div>
+                 <div class="stat-item">
+                     <div class="stat-icon">
+                         <i class="fas fa-award"></i>
+                     </div>
+                     <div class="stat-number">
+                         <span class="counter" data-count="50">0</span>+
+                     </div>
+                     <div class="stat-label">Awards Won</div>
+                 </div>
+             </div>
+         </div>
+     </section>
+
+     <!-- Testimonials Section -->
+     <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>What Our Travelers Say</h2>
+                <p>Real experiences from real adventurers</p>
+            </div>
+            <div class="testimonials-grid reveal">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"The mountain adventure tour was absolutely incredible! The guides were knowledgeable and the scenery was breathtaking. I can't wait to book another trip with Adventure Tours."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Sarah Johnson">
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <span>Mountain Adventure</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Perfect beach getaway! The accommodations were luxurious and the activities were well-organized. Adventure Tours exceeded all my expectations."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Mike Chen">
+                        <div class="author-info">
+                            <h4>Mike Chen</h4>
+                            <span>Beach Paradise</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"The cultural journey opened my eyes to so many new experiences. The local guides shared fascinating stories and made every moment special."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Emily Rodriguez">
+                        <div class="author-info">
+                            <h4>Emily Rodriguez</h4>
+                            <span>Cultural Journey</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Travel Gallery</h2>
+                <p>Stunning moments captured from our adventures</p>
+            </div>
+            <div class="gallery-grid reveal">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Mountain View">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Beach Sunset">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Cultural Site">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Forest Trail">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1464822759844-d150baec93c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Desert Landscape">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Arctic Aurora">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Get In Touch</h2>
+                <p>Ready to start your adventure? Contact us today!</p>
+            </div>
+            <div class="contact-content reveal">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Address</h4>
+                            <p>123 Adventure Street<br>Travel City, TC 12345</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>info@adventuretours.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Hours</h4>
+                            <p>Mon - Fri: 9:00 AM - 6:00 PM<br>Sat - Sun: 10:00 AM - 4:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form" class="contact-form">
+                         <div class="form-group">
+                             <input type="text" id="name" placeholder="Your Name" required>
+                         </div>
+                         <div class="form-group">
+                             <input type="email" id="email" placeholder="Your Email" required>
+                         </div>
+                         <div class="form-group">
+                             <input type="tel" id="phone" placeholder="Phone Number">
+                         </div>
+                         <div class="form-group">
+                             <select id="package" required>
+                                 <option value="">Select Package</option>
+                                 <option value="mountain">Mountain Adventure</option>
+                                 <option value="beach">Beach Paradise</option>
+                                 <option value="cultural">Cultural Journey</option>
+                                 <option value="forest">Forest Explorer</option>
+                                 <option value="desert">Desert Safari</option>
+                                 <option value="arctic">Arctic Adventure</option>
+                             </select>
+                         </div>
+                         <div class="form-group">
+                             <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                         </div>
+                         <button type="submit" class="btn btn-primary">Send Message</button>
+                     </form>
+                </div>
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.1234567890123!2d-74.0059413!3d40.7127753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQyJzQ2LjAiTiA3NMKwMDAnMjEuNCJX!5e0!3m2!1sen!2sus!4v1234567890123" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <h3><i class="fas fa-mountain"></i> Adventure Tours</h3>
+                        <p>Creating unforgettable adventures and memories that last a lifetime.</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#packages">Tour Packages</a></li>
+                        <li><a href="#services">Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Destinations</h4>
+                    <ul>
+                        <li><a href="#">Mountain Tours</a></li>
+                        <li><a href="#">Beach Holidays</a></li>
+                        <li><a href="#">Cultural Trips</a></li>
+                        <li><a href="#">Adventure Sports</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Adventure Street, Travel City</p>
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> info@adventuretours.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Adventure Tours. All rights reserved. | Privacy Policy | Terms of Service</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTop" class="scroll-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
